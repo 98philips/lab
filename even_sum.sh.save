@@ -1,0 +1,14 @@
+#!bin/bash
+read -p "n: " n
+echo "Sum equals: "
+i=0
+s=0
+m=n*2
+echo "$m"
+while [ "$m" -ge "$i" ];
+do
+	echo "$i"
+	i=i+2
+	s=$(($(s)+i))"
+done
+echo "$s"
